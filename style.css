@@ -1,0 +1,103 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h4{
+	font-family: Prestige Elite Std;
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ya.jpg");
+  height: 400px;
+  width: 1349px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+	.navigation{
+		width: 1349px;
+		overflow :hidden;
+		background-color : #4682B4;
+		margin-right: 125px;
+	}
+	.navigation a{
+		float : left;
+		display : block;
+		color : #f2f2f2;
+		text-align: center;
+		padding : 14px 16px;
+		text-decoration: none;
+		margin-left: 75px;
+	}
+	.navigation a:hover {
+		background-color: #ddd;
+		color : black;
+	}
+
+	.footer {
+		font-size: 16; 
+		text-align: justify; 
+		color: white;
+		height : 150px;
+		background-color: #4682B4;
+		width: 1349px;
+	}
+
+	
+	.teksgambar{
+		background-image: url(batik.jpg);
+		width: 1350px;
+		height: 50px;
+	}.teksgambar p{
+		color: white;
+		font-size: 25px;
+		padding: 10px 10px 10px;
+		font-weight: bold;
+	}
+	
+	*{
+		box-sizing: border-box;
+	}
+	.aside, .article {
+		float : left;
+		padding: 10px;
+		text-align: justify;
+		font-size: 18px;
+		font-family: Tekton Pro Ext;
+	}
+	
+	.aside {
+		text-align: justify;
+		width: 30%;
+		background-color: #FFA07A;
+		font-size: 18px;
+		font-family: Tekton Pro Ext;
+	}
+	
+	.article {
+		width: 40%;
+		font-size: 18px;
+		text-align: justify;
+		font-family: Tekton Pro Ext;
+	}
+
+	@media (max-width: 600px){
+		.aside, .article {
+			width: 100%;
+			text-align: justify;
+		}
+	}
+
+	.block-inline {
+		display: inline-block;
+		width: 500px;
+		height: 100px;
+		margin: 30px;
+		border: 5px solid pink;
+		margin-left: 100px;
+	}
